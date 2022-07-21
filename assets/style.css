@@ -271,3 +271,17 @@ button {
 
       
 }
+
+@media (max-width: 550px) {
+
+    .flex {
+        margin-left: 10px;
+    }
+}
+
+@media (max-width: 500px) {
+
+    .flex {
+        margin-left: 10px;
+    }
+}
