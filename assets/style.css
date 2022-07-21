@@ -22,7 +22,7 @@ header {
 
 #call-us {
     color: --secondary-color;
-    margin-left:20px;
+    margin-left: 20px;
 }
 
 #login {
@@ -32,7 +32,7 @@ header {
 span {
     color: white;
     margin-left: 10px;
-    margin-right:20px;
+    margin-right: 20px;
 }
 
 #logo {
@@ -74,7 +74,7 @@ ul li a:hover {
     font-weight: bolder;
 }
 
-ul li a{
+ul li a {
     font-weight: lighter;
 }
 
@@ -115,7 +115,7 @@ main {
     margin-top: 70px;
     margin-left: 50px;
     margin-right: 50px;
-   
+
 }
 
 .page-option {
@@ -148,14 +148,14 @@ h1 {
     margin-bottom: 10px;
 }
 
-#contact-container p{
+#contact-container p {
     margin-left: 50px;
     margin-bottom: 50px;
     margin-right: 150px;
 }
 
 h2 {
-color: var(--primary-color);
+    color: var(--primary-color);
 }
 
 .flex-row {
@@ -174,11 +174,11 @@ color: var(--primary-color);
 
 input {
     width: 359px;
-    background-color:#fff1d5;
+    background-color: #fff1d5;
     padding: 5px;
     margin: 5px;
     border-color: #8f8f8f;
-    border:solid;
+    border: solid;
     border-width: 1px;
     border-radius: 3px;
     color: #747373;
@@ -193,7 +193,7 @@ button {
 }
 
 #contact-us {
-    margin-left:50px; 
+    margin-left: 50px;
 }
 
 .flex {
@@ -207,7 +207,9 @@ button {
     margin-left: 500px;
 }
 
-#phone, #address, #flex-input{
+#phone,
+#address,
+#flex-input {
     margin-top: 10px;
 }
 
@@ -218,4 +220,42 @@ button {
 
 #message {
     height: 100px;
+}
+
+@media (max-width: 2740px) {
+    .flex {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .reach-us {
+        margin-left: 50px;
+        margin-top: 50px;
+    }
+
+    #contact-container p {
+        contain: content;
+        width: 35%;
+    }
+
+    header {
+        width: 38%;
+    }
+
+    main {
+        width: 36%;
+    }
+}
+
+@media (max-width: 1310px) {
+    main {
+        width: 34%;
+    }
+}
+
+@media (max-width: 790px) {
+    .page-option {
+        display: flex;
+        flex-direction: column;
+    }
 }
