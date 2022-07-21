@@ -272,16 +272,13 @@ button {
       
 }
 
-@media (max-width: 550px) {
+@media (max-width: 375px) {
 
-    .flex {
-        margin-left: 10px;
+    #contact-us {
+        margin-left: 120px;
     }
-}
 
-@media (max-width: 500px) {
-
-    .flex {
-        margin-left: 10px;
+    .reach-us {
+        margin-left: 131px;
     }
 }
