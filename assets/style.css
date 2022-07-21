@@ -115,7 +115,8 @@ main {
     margin-top: 70px;
     margin-left: 50px;
     margin-right: 50px;
-
+    min-width:100%;
+    max-width: 100%;
 }
 
 .page-option {
@@ -159,14 +160,14 @@ h2 {
 }
 
 .flex-row {
-    max-width: 340px;
+    min-width: 340px;
     display: flex;
     flex-direction: row;
     align-items: stretch;
 }
 
 #flex-input {
-    max-width: 380px;
+    min-width: 380px;
     display: flex;
     flex-direction: column;
     align-items: stretch;
@@ -222,7 +223,11 @@ button {
     height: 100px;
 }
 
-@media (max-width: 2740px) {
+#number, #email {
+    width: 169px;
+}
+
+@media (min-width: 2740px) {
     .flex {
         display: flex;
         flex-direction: column;
@@ -238,24 +243,31 @@ button {
         width: 35%;
     }
 
-    header {
-        width: 38%;
-    }
-
     main {
         width: 36%;
     }
 }
 
-@media (max-width: 1310px) {
-    main {
-        width: 34%;
-    }
-}
-
-@media (max-width: 790px) {
+@media (max-width: 1550px) {
     .page-option {
         display: flex;
         flex-direction: column;
     }
+
+    .flex {
+        display: flex;
+        flex-direction: column;
+        margin: 0px;
+        align-items: center;
+        justify-content: space-evenly;
+    
+    }
+
+    .reach-us {
+        margin: 0px;
+        margin-top: 20px;
+        margin-left: 38px;
+    }
+
+      
 }
